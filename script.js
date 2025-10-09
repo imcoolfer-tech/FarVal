@@ -1,5 +1,7 @@
-//1. pilih tombol bedasarkan ID-nya
+// 1. Pilih tombol berdasarkan ID-nya
 const tombolSapa = document.getElementById('sapabutton');
-//2. Tambahkan 'event litsener' untuk aksi 'click'
-tombolSapa.addEventLitsener('click',function() {
-  alert('what'sup?');
+
+// 2. Tambahkan 'event listener' untuk aksi 'click'
+tombolSapa.addEventListener('click', function() {
+  alert("What's up?");
+});
